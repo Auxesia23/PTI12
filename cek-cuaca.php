@@ -18,7 +18,7 @@ crossorigin=""></script>
  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
  }).addTo(map); 
  
- var apiKey = 'API Key dari Openweather';
+ var apiKey = 'da79454598f135e1c6b4f294d39a829f';
  function getWeatherData(cityName) { 
  var apiUrl = 
 `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`; 
